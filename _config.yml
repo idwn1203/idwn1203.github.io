@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
@@ -35,3 +36,6 @@ sidebar_home_link:  true
                                 # to enable a separate blog link.
 github:
   repo:             https://github.com/fongandrew/hydeout
+=======
+theme: jekyll-theme-slate
+>>>>>>> parent of 62ec6a8... Set theme jekyll-theme-merlot
