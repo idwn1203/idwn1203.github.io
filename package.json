@@ -1,24 +1,22 @@
 {
-  "version": "0.0.1",
-  "devDependencies": {
-    "@casual-ui/eslint-config-svelte": "^0.6.0",
-    "@changesets/cli": "^2.27.1",
-    "eslint": "^8.57.0",
-    "prettier": "~3.2.5",
-    "prettier-plugin-svelte": "^3.2.1",
-    "svelte": "^4.2.12",
-    "taze": "^0.13.3",
-    "typescript": "~5.3.3"
-  },
+  "name": "sveltepress-project",
+  "private": true,
+  "version": "0.0.0",
   "scripts": {
-    "lint": "eslint -c ./.eslintrc.cjs --ext .js,.ts,.svelte ./packages",
-    "format": "prettier \"./**/*.svelte\" --check",
-    "release": "changeset publish",
-    "test:vite": "cd packages/vite && npx vitest run && cd ../..",
-    "test:theme-default": "cd packages/theme-default && npx vitest run && cd ../..",
-    "test": "pnpm test:vite && pnpm test:theme-default"
+    "dev": "vite dev",
+    "build": "vite build"
   },
-  "dependencies": {
-    "@changesets/changelog-github": "^0.5.0"
-  }
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.1",
+    "@sveltejs/kit": "^2.5.1",
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "@sveltepress/theme-default": "^2.0.2",
+    "@sveltepress/vite": "^0.33.2",
+    "@types/node": "^20.11.20",
+    "svelte": "^4.2.12",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
+  },
+  "type": "module",
+  "license": "MIT"
 }
