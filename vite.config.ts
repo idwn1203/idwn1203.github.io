@@ -12,12 +12,12 @@ const config = defineConfig({
         sidebar: {
           // Add your sidebar configs here
         },
-        github: 'https://github.com/Blackman99/sveltepress',
+        github: 'https://github.com/ijjeon1203',
         logo: '/sveltepress.svg',
       }),
       siteConfig: {
-        title: 'Sveltepress',
-        description: 'A content centered site build tool',
+        title: 'Jeon in june',
+        description: '1993-12-03',
       },
     }),
   ],
