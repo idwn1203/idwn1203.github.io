@@ -1,38 +1,65 @@
-# create-svelte
+<h1 align="center">
+  <br>
+ <img align="center" alt="Sveltepress" src="./packages/docs-site/static/android-chrome-192x192.png" />
+  <br>
+  Jeon in June
+  <br>
+  <br>
+</h1>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+<p align="center">
+A content centered site build tool
+</p>
 
-## Creating a project
+<p align="center">
+  <a href="https://sveltepress.site/" target="_blank" rel="noopener noreferrer" >
+    <img src="./assets/site.png" alt="Sveltepress screenshots" width="600" height="auto">
+  </a>
+</p>
 
-If you're seeing this, you've probably already done this step. Congrats!
+<p align="center">
+  <a href="https://sveltepress.site/" target="_blank" rel="noopener noreferrer" >
+    <img src="./asset/../assets/lighthouse.png" alt="Sveltepress lighthouse" width="600" height="auto">
+  </a>
+</p>
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## :pizza: Introduction
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Inspired by [Vitepress](https://vitepress.vuejs.org/)  
+Build with [SvelteKit](https://kit.svelte.dev/) 
 
-## Developing
+## :bookmark_tabs: Online docs and demos
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+[Sveltepress](https://sveltepress.site/)
 
-```bash
-npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## :pray: Contributing
 
-## Building
+First of all, all kinds of contributions are welcomed!
 
-To create a production version of your app:
+For contributing details, see [Contributing](./CONTRIBUTING.md)
 
-```bash
-npm run build
-```
+## :heart: Thanks 
 
-You can preview the production build with `npm run preview`.
+This project can not be done without these projects
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+* [Vitepress](https://vitepress.vuejs.org/)
+* [SvelteKit](https://kit.svelte.dev/) 
+* [Svelte](https://svelte.dev/)
+* [Vitest](https://vitest.dev/)
+* [Vite](https://vitejs.dev/)
+* [Unocss](https://github.com/unocss/unocss)
+* [Shiki](https://github.com/shikijs/shiki)
+* [Remark](https://github.com/remarkjs/remark)
+* [Rehype](https://github.com/rehypejs/rehype)
+* [Vite PWA](https://github.com/vite-pwa/docs)
+
+## Who's using
+
+[<img src="https://avatars.githubusercontent.com/u/49562229?s=200&v=4" style="width:100px;" />](https://github.com/kryptokrona/kryptokrona-kotlin-sdk)
+[<img src="https://svelte.casual-ui.site/logo@3x.png" style="width:100px;" />](https://svelte.casual-ui.site/)
+[<img src="https://svelte-u.vercel.app/logo.png" style="width:100px;" />](https://svelte-u.vercel.app/)
+
+## LICENSE
+
+[MIT](./LICENSE)
